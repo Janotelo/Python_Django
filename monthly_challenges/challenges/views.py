@@ -7,3 +7,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("This works!")
+
+def february(request):
+    return HttpResponse("This is february!")
