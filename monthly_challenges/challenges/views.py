@@ -49,10 +49,10 @@ def monthly_challenge_by_number(request, month):
 
 
 def monthly_challenge(request, month):
-    try:
+    try:    
         challenge_text = monthly_challenges[month]
         # render the templates without render_to_string
-        return render(request, "challenges/challenges.html")
+        return render(request, "challenges/challenge.html")
 
     except:
         # added HTML codes
