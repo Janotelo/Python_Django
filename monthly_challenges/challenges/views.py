@@ -50,10 +50,14 @@ def monthly_challenge_by_number(request, month):
 
 def monthly_challenge(request, month):
     try:
+        capitalized_month = month.capitalize() # Exercise
         challenge_text = monthly_challenges[month]
         # added 3rd argument which is a dictionary
         return render(request, "challenges/challenge.html", {
-            "text": challenge_text  # use this key'value pair inside the HTML file
+            # used this key'value pair inside the HTML file
+            "month_title": capitalized_month,
+            "month_text": capitalized_month, # Exercise
+            "text": challenge_text
         })
 
     except:
