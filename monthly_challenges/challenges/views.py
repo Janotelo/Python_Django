@@ -55,7 +55,7 @@ def monthly_challenge(request, month):
         return render(request, "challenges/challenge.html", {
             # used this key'value pair inside the HTML file
             "text": challenge_text,
-            "month_name": month.capitalize()
+            "month_name": month
         })
 
     except:

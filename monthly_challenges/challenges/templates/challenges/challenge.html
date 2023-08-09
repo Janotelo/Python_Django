@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ month_name }} Challenge</title>
+    <title>{{ month_name|title }} Challenge</title>
 </head>
 
 <body>
-    <h1>{{ month_name }} Challenge</h1> <!-- Exercise-->
-    <h2>{{ text }}</h2> <!-- 'text' is referenced from the 3rd argument in the views | render-->
+    <h1>{{ month_name|title }} Challenge</h1> <!-- used django template tags and filters which is '|title'-->
+    <h2>{{ text }}</h2> <!-- 'text' is referenced from the 3rd argument in the views | render | called interpolation-->
 </body>
 
 </html>
