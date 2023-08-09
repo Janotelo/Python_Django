@@ -49,10 +49,12 @@ def monthly_challenge_by_number(request, month):
 
 
 def monthly_challenge(request, month):
-    try:    
+    try:
         challenge_text = monthly_challenges[month]
-        # render the templates without render_to_string
-        return render(request, "challenges/challenge.html")
+        # added 3rd argument which is a dictionary
+        return render(request, "challenges/challenge.html", {
+            "text": challenge_text  # use this key'value pair inside the HTML file
+        })
 
     except:
         # added HTML codes
