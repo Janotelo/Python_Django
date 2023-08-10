@@ -6,7 +6,7 @@
 
     {% block content %}
         
-        {% include "challenges/includes/header.html"%}
+        {% include "challenges/includes/header.html" with active_page="challenge"%}
 
         <h1>{{ month_name|title }} Challenge</h1> <!-- used django template tags and filters which is '|title'-->
         {% if text is not None %}

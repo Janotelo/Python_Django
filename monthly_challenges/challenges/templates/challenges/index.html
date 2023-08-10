@@ -6,8 +6,8 @@
 
     {% block content %}
 
-        {% include "challenges/includes/header.html"%}
-        
+        {% include "challenges/includes/header.html" with active_page="index" %}
+
         <ul>
             {% for month in months %} <!-- FOR BLOCK -->
                 <!--  same function as reverse inside a python file.-->
