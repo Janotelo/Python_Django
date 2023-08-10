@@ -5,10 +5,14 @@
     {% endblock %}
 
     {% block content %}
+        
+        {% include "challenges/includes/header.html"%}
+
         <h1>{{ month_name|title }} Challenge</h1> <!-- used django template tags and filters which is '|title'-->
         {% if text is not None %}
             <h2>{{ text }}</h2> <!-- 'text' is referenced from the 3rd argument in the views | render | called interpolation-->
         {% else %}
             <p> There is no challenge for this month yet! </p>
         {% endif %}
+
     {% endblock %}

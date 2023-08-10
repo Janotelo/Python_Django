@@ -5,6 +5,9 @@
     {% endblock %}
 
     {% block content %}
+
+        {% include "challenges/includes/header.html"%}
+        
         <ul>
             {% for month in months %} <!-- FOR BLOCK -->
                 <!--  same function as reverse inside a python file.-->
