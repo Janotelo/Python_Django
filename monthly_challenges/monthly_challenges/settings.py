@@ -59,6 +59,7 @@ TEMPLATES = [
         'DIRS': [
             # this adds the directory of templates folder in challenges app
             ## BASE_DIR / "challenges" / "templates"
+            BASE_DIR / "templates"
         ],
         'APP_DIRS': True,
         'OPTIONS': {
