@@ -22,6 +22,7 @@ li {
 }
 
 /* remove border of last in the list*/
-li:last-of-type {
+li:last-of-type,
+li:nth-of-type(6) {
     border-bottom: none;
 }
