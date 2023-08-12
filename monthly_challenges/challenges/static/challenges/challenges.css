@@ -1,3 +1,22 @@
 ul {
     list-style: none;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 20rem;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.26);
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+li {
+    margin: 1 rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+/* remove border of last in the list*/
+li:last-of-type {
+    border-bottom: none;
 }
