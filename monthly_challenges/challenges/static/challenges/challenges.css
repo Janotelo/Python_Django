@@ -6,6 +6,11 @@ ul {
     box-shadow: 0 2px 9px rgba(0, 0, 0, 0.26);
     padding: 1rem;
     border-radius: 12px;
+    /* Column for the month list*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20rem;
 }
 
 li {
