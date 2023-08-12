@@ -1,0 +1,12 @@
+/* Global Static file for the whole project */
+
+/* fonts imported from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+}

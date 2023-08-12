@@ -123,6 +123,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/' # should also have this for CSS Static files
 
+# inserted manually which is a setting of django to see static files globally
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
