@@ -10,7 +10,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 20rem;
+    height: 18rem;
 }
 
 li {
@@ -25,4 +25,15 @@ li {
 li:last-of-type,
 li:nth-of-type(6) {
     border-bottom: none;
+}
+
+li a {
+    /* remove underline or blue color */
+    text-decoration: none;
+    color: #383838;
+}
+
+li a:hover,
+li a:active {
+    color: #7e0154;
 }
