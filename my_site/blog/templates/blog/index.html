@@ -1,7 +1,12 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}
     My Blog
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "blog/index.css" %}"/>
 {% endblock %}
 
 {% block content %}
@@ -34,6 +39,7 @@
                                 hiking in the mountains! And I wasn't even 
                                 prepared for what happened whilst I was 
                                 enjoying the view!
+                            </p>
                         </div>
                     </a>
                 </article>
