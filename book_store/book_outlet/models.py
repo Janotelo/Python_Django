@@ -8,4 +8,4 @@ from django.db import models
 ### *Don't use reserved names                    ###
 class Book(models.Model):
     title = models.CharField(max_length=50)
-    rating = 
+    rating = models.IntegerField()
