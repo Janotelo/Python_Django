@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
+from django.http import Http404
 
 from .models import Book
 # Create your views here.
@@ -11,7 +12,13 @@ def index(request):
     })
 
 def book_detail(request, id):
-    book = Book.objects.get(pk=id)
+    #try:
+    #    book = Book.objects.get(pk=id)
+    #except:
+    #    raise Http404()
+
+    #Alternative for try except
+    book = get_object_or_404(Book, pk=id)
     return render(request, "book_outlet/book_detail.html", {
         "title": book.title,
         "author": book.author,
