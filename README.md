@@ -6,8 +6,8 @@ Learn how to build web applications and websites with Python and the Django fram
 
 ### Note:
 I initialized a Python Virtual Environment for deploying the django server.  
-Command to create Virtual Environment: python -m venv <name>  
-Command to run Virtual Environment: <name>\Scripts\activate.bat
+- python -m venv <name> - *Command to create Virtual Environment*  
+- <name>\Scripts\activate.bat - *Command to run Virtual Environment*  
 
 ### Dependencies
 Here are the following dependencies installed needed for all projects in this repository:
