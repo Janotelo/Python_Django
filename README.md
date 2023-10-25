@@ -4,6 +4,6 @@
 [Click this to view the course in Udemy.](https://www.udemy.com/course/python-django-the-practical-guide/)
 
 ### Note:
-### I initialized a Python Virtual Environment for deploying the django server.
-### Here are the following dependencies installed:
-### 1. django
+I initialized a Python Virtual Environment for deploying the django server.
+Here are the following dependencies installed:
+1. django
