@@ -14,7 +14,7 @@ Here are the following dependencies installed needed for all projects in this re
 1. django
 
 ### Useful Commands for Django Framework
-1. python manage.py runserver - *To deploy the development server locally.*
-2. python manage.py startapp {app_name} - *To add an app/module inside the project.*
-3. python manage.py makemigrations - *To initialize the models added in the app or project.*
-4. python manage.py migrate - *To do migrations.*
+1. 'python manage.py runserver' - *To deploy the development server locally.*
+2. 'python manage.py startapp {app_name}' - *To add an app/module inside the project.*
+3. 'python manage.py makemigrations' - *To initialize the models added in the app or project.*
+4. 'python manage.py migrate' - *To do migrations.*
