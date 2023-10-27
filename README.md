@@ -1,7 +1,7 @@
 # Python_Django
 
 ### Description
-This is my personal version control and backup of files as I learn "Python Django - The Practical Guide" that I acquire in Udemy.  
+This is my personal version control and backup of files as I learn "Python Django - The Practical Guide" that I got in Udemy. This is the second time I learn this course and got the chance to use github.   
 Learn how to build web applications and websites with Python and the Django framework by purchasing Python Django - The Practical Guide in Udemy. [Click here to view the course in Udemy.](https://www.udemy.com/course/python-django-the-practical-guide/)
 
 ### Note:
