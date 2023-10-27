@@ -11,7 +11,7 @@ class Tag(models.Model):
 class Author(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    email_address = models.EmailField
+    email_address = models.EmailField()
 
 
 class Post(models.Model):
