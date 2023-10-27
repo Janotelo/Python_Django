@@ -14,7 +14,12 @@ class Address(models.Model):
     street = models.CharField(max_length=80)
     postal_code = models.CharField(max_length=5)
     city = models.CharField(max_length=50)
+    
+    def __str__(self):
+        return f"{self.street}, {self.postal_code}, {self.city}"
 
+    class Meta:
+        verbose_name_plural = "Address Entries" # ALter show name in admin
 
 class Author(models.Model):
     first_name = models.CharField(max_length=100)
