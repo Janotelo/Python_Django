@@ -31,5 +31,6 @@ def post_detail(request, slug):
     #identified_post = next(post for post in all_posts if post['slug'] == slug)
     identified_post = get_object_or_404(Post, slug=slug)
     return render(request, "blog/post-detail.html", {
-        "post": identified_post
+        "post": identified_post,
+        "post_tags": identified_post.tags.all()
     })
