@@ -18,6 +18,17 @@ from .models import Review
 class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
-        # fields = ['user_name', 'review-text', 'rating'] or
+        # fields = ['user_name', 'review_text', 'rating'] or
         # exclude = ['<another_model>'] or
-        fields = '__all__'
+        fields = "__all__"
+        labels = {
+            "user_name": "Your Name",
+            "review_text": "Your Feedback",
+            "rating": "Your Rating"
+        }
+        error_messages = {
+            "user_name": {
+                "required": "Your name must not be empty",
+                "max_length": "Please enter a shorter name!"
+            }
+        }
