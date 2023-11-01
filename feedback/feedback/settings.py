@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'reviews', #for template to be found by django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
