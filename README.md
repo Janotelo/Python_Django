@@ -6,7 +6,7 @@ This is my personal version control and backup of files as I learn "Python Djang
 Learn how to build web applications and websites with Python and the Django framework by purchasing Python Django - The Practical Guide in Udemy. [Click here to view the course in Udemy.](https://www.udemy.com/course/python-django-the-practical-guide/)  
 
 ### Note:
-1. My final project for this course is not commited in this repository, instead it is private. You can visit my website by clicking [here](http://django-blog3-env.eba-kjabuy9t.ap-southeast-2.elasticbeanstalk.com/)  
+1. My final project for this course is not commited in this repository, instead it is private. You can visit my website by clicking [here](http://django-blog3-env.eba-kjabuy9t.ap-southeast-2.elasticbeanstalk.com/).
 - The web app is deployed using AWS Elastic Beanstlak.
 - The static and uploaded files are serve using AWS S3.
 - The database is served using AWS RDS through PostgreSQL.
